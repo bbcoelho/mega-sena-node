@@ -20,17 +20,17 @@ A simple "vibecoded" TypeScript tool to check your lottery bet against the compl
 ### Setup
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/bbcoelho/mega-sena-node.git
    cd mega-sena-node
    ```
-
+   or download and extract ZIP file: https://github.com/bbcoelho/mega-sena-node/archive/refs/heads/main.zip
 2. **Install dependencies:**
    ```bash
    npm install
    ```
 
 3. **Ensure you have the historical data:**
-   - The project requires `mega-sena.csv` with historical lottery results
+   - The project requires `mega-sena.csv` with historical lottery results (already included)
    - CSV format: `Concurso;Data Sorteio;1a Dezena;2a Dezena;3a Dezena;4a Dezena;5a Dezena;6a Dezena;Ganhadores Sena`
 
 ## Usage
